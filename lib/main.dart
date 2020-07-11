@@ -10,9 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'GitChat',
-      theme: ThemeData(
-        primaryColor: Colors.black87
-      ),
+      debugShowCheckedModeBanner: false,
       home: HomePage()
     );
   }

@@ -9,8 +9,8 @@ class HomePage extends StatelessWidget {
         title: Text('GitChat', style: TextStyle(color: Colors.white)),
       ),
       body: Center(
-        child: Text('This is the Home Page'),
-      ),
+        child: Text('This is the Home page')
+      )
     );
   }
 }
